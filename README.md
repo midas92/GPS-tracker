@@ -1,49 +1,43 @@
 ## React Native GPS Track
-Aplicativo multiplataforma para rastreamento de localização do usuário.
+Cross-platform application for tracking user location.
 
 ### Design
-O design foi desenvolvido de forma similar a imagem estática que foi provida pelo cliente.
+The design was developed in a similar way to the static image provided by the client.
 
 ![My GPS - App Screenshot](read-me-images/my-gps-app.png)
 
-# Iniciando a aplicação
+Open the **back-end** folder and install the necessary packages to run the back-end.
 
- Clonar este repositório.
-    
-    git clone git@github.com:gitdoallan/my-gps-app-react-native.git
-   
-Abrir a pasta **back-end** e instalar os pacotes necessários para rodar o back-end.
+     npm install
 
-    npm install
+Upload the Docker container.
 
-Subir o container do Docker.
+     docker-compose up -d
 
-    docker-compose up -d
+Open the **front-end** folder and install the necessary packages to run the front-end.
 
-Abrir a pasta **front-end** e instalar os pacotes necessários para rodar o front-end.
+     npm install
 
-    npm install
+Run the application and then choose the platform on which you want to run the program.
 
-Executar a aplicação e depois escolher a plataforma que deseja executar o programa.
+     npm start
 
-    npm start
+If you want to open directly on iOS, run the command.
 
-Se desejar abrir diretamente no iOS, rode o comando.
+     npm run ios
+If you want to open directly on Android, run the command.
 
-    npm run ios
-Se desejar abrir diretamente no Android, rode o comando.
+     npm run android
 
-    npm run android
+# Technologies used in this project
 
-# Tecnologias utilizadas neste projeto
-
- 1. Expo - Iniciar o desenvolvimento de um app com React Native rapidamente.
- 2. Expo-location - Obter dados de geolocalização do usuário.
- 3. Axios - Fazer requisições http para a API do backend.
- 4. Redux Toolkit - Manipular o estado global da aplicação.
- 5. Redux Persist - Persistir dados do Redux no Local Storage do telefone.
- 6. React Native Async Storage - Implementada com o Redux Persist para permitir a utilização do Local Storage.
- 7. Styled Components - Manipulação de estilos da aplicação.
- 8. ESLint - Organização de código.
- 9. NetInfo - Verificação de conexão com a internet.
- 10. React Navigation - Navegação entre telas.
+  1. Expo - Start developing an app with React Native quickly.
+  2. Expo-location - Obtain user geolocation data.
+  3. Axios - Make http requests to the backend API.
+  4. Redux Toolkit - Manipulate the global state of the application.
+  5. Redux Persist - Persist Redux data in the phone's Local Storage.
+  6. React Native Async Storage - Implemented with Redux Persist to allow the use of Local Storage.
+  7. Styled Components - Manipulation of application styles.
+  8. ESLint - Code organization.
+  9. NetInfo - Internet connection check.
+  10. React Navigation - Navigation between screens.
